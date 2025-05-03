@@ -1,0 +1,726 @@
+[
+  {
+    "article_title": "11 recent cyber attacks on the water and wastewater sector - Wisdiam",
+    "article_url": "https://wisdiam.com/publications/recent-cyber-attacks-water-wastewater/",
+    "incident_summary": "In 2024, several water and wastewater facilities in the United States were targeted by cyber attacks. Hackers remotely accessed and manipulated Supervisory Control and Data Acquisition (SCADA) systems, leading to operational disruptions. While most incidents were caught early and switched to manual control, one water treatment facility in Arkansas City, Kansas, also had to revert to manual operations due to a similar incident. Additionally, American Water's customer account system was disrupted, impacting customer access and services, highlighting the vulnerability of critical infrastructure and related systems to cyber threats.",
+    "category_flow": [
+      "DCA",
+      "OIA",
+      "BPA"
+    ],
+    "llm_suggestion": [
+      "DCA",
+      "OIA",
+      "PSI"
+    ],
+    "note":"LLM added PSI: Emphasized potential public safety risk due to SCADA system manipulation at water facilities."
+  },
+  {
+    "article_title": "The Impact of Ransomware on the Energy and Utilities Industry",
+    "article_url": "https://www.leadventgrp.com/blog/the-impact-of-ransomware-on-the-energy-and-utilities-industry",
+    "incident_summary": "Ransomware attacks, where malicious software encrypts data and demands payment for its release, are a growing threat to the energy and utilities sector. These attacks target operational and customer data, potentially disrupting power generation, distribution, and transmission. Consequences can include widespread power outages affecting essential services, data breaches, and financial losses. To mitigate these risks, energy and utility companies must prioritize robust cybersecurity measures and incident response planning.",
+    "category_flow": [
+      "DCA",
+      "OIA"
+      
+    ],
+    "llm_suggestion": [
+      "DCA",
+      "OIA",
+      "EFA"
+    ],
+    "note":"LLM added EFA (not PSI): Highlighted economic disruption, not physical/public safety."
+  },
+  {
+    "article_title": "14 Major SCADA Hacks - DPS Telecom",
+    "article_url": "https://www.dpstele.com/blog/major-scada-hacks.php",
+    "incident_summary": "Cyberattacks targeting critical infrastructure, such as power grids and water companies, pose significant risks. In Ukraine, attackers twice disrupted power supply by deploying malware like BlackEnergy to disable SCADA systems, leading to outages affecting hundreds of thousands of people. The Kemuri water company also experienced a breach with similar malware. These incidents highlight the vulnerability of critical infrastructure to cyber threats and the potential for widespread disruption, emphasizing the need for robust cybersecurity measures to protect essential services globally. The attacks also demonstrated how malware can spread through network file shares and removable media.",
+    "category_flow": [
+      "DCA",
+      "OIA"
+    ],
+    "llm_suggestion": [
+      "DCA",
+      "OIA"
+    ],
+    "note":""
+  },
+  {
+    "article_title": "US chemical plants risk disastrous cyberattacks relying on guidance ...",
+    "article_url": "https://www.chemistryworld.com/news/us-chemical-plants-risk-disastrous-cyberattacks-relying-on-guidance-a-decade-out-of-date/4011915.article",
+    "incident_summary": "A recent audit revealed that many US chemical plants are using outdated cybersecurity measures, leaving them susceptible to cyberattacks. These attacks, potentially carried out by nation-states like Iran or Russia, could target operational safety systems. A past attack in Saudi Arabia, for example, aimed to trigger an explosion, highlighting the potential for deadly consequences beyond financial extortion. This vulnerability raises concerns about future chemical leaks or explosions at US facilities due to inadequate cybersecurity. The incident emphasizes the urgent need for updated and robust cybersecurity protocols in the chemical industry.",
+    "category_flow": [
+      "DCA",
+      "OIA",
+      "BPA"
+    ],
+    "llm_suggestion": [
+      "DCA",
+      "OIA",
+      "BPA"
+    ],
+    "note":"No difference "
+  },
+  {
+    "article_title": "11 recent cyber attacks on the water and wastewater sector - Wisdiam",
+    "article_url": "https://wisdiam.com/publications/recent-cyber-attacks-water-wastewater/",
+    "incident_summary": "In September 2024, the Arkansas City, Kansas water treatment facility experienced a cybersecurity incident that forced a temporary shift to manual operations after staff noticed irregular activity through standard process monitoring. While water supply remained unaffected, the incident prompted enhanced security measures and involvement of authorities. Separately, American Water suffered a cyberattack in October 2024 that disrupted its MyWater account system, impacting customer access and call center operations, though water and wastewater facilities remained operational. These incidents highlight the vulnerability of critical infrastructure and utilities to cyber threats, emphasizing the need for robust cybersecurity measures to protect essential services and customer data.",
+    "category_flow": [
+      "DCA",
+      "OIA"
+    ],
+    "llm_suggestion": [
+      "DCA",
+      "OIA"
+    ],
+    "note":"No difference"
+  },
+  {
+    "article_title": "The Dual-Use Challenge of AI-Driven Drone Swarms - OODAloop",
+    "article_url": "https://oodaloop.com/analysis/disruptive-technology/from-light-shows-to-battlefields-the-dual-use-challenge-of-ai-driven-drone-swarms/",
+    "incident_summary": "AI-controlled drones could be used in coordinated swarms to attack civilian infrastructure. Power grids are a potential target. Such an attack could cripple essential services. This highlights the risk of AI-powered drones being weaponized to disrupt civilian life.",
+    "category_flow": [
+      "OIA",
+      "EFA"
+    ],
+    "llm_suggestion": [
+      "OIA"
+    ],
+    "note":"LLM dropped PSI: Focused on infrastructure risk (OIA) rather than broader public physical danger."
+  },
+  {
+    "article_title": "Bioterrorism and the Food Supply - Addressing Foodborne Threats ...",
+    "article_url": "https://www.ncbi.nlm.nih.gov/books/NBK57093/",
+    "incident_summary": "An attack on the food supply, likely detected through sick individuals or animals at the local level, necessitates a coordinated response with public health officials. The primary targets are humans and animals consuming contaminated food. The consequences of such an attack could be economically catastrophic and result in loss of life. To mitigate these risks, a multi-faceted approach across the entire food production chain is crucial, emphasizing both food defense against deliberate attacks and ongoing food safety measures to prevent unintentional contamination.",
+    "category_flow": [
+      "BPA",
+      "EFA",
+      "OIA"
+    ],
+    "llm_suggestion": [
+      "BPA",
+      "EFA"
+    ],
+    "note":"LLM dropped OIA, kept BPA/EFA: Emphasized health and economic threats, not infrastructure disruption."
+  },
+  {
+    "article_title": "Cybersecurity Quantum Attack - Identity Management Institute\u00ae",
+    "article_url": "https://identitymanagementinstitute.org/cybersecurity-quantum-attack/",
+    "incident_summary": "A potential cybersecurity threat involves attackers collecting encrypted data now with the intent to decrypt it later using future quantum computers. This method targets any data secured by current encryption algorithms. The consequence would be the compromise of sensitive information once quantum computers are powerful enough to break the encryption. This highlights the risk that advancements in quantum computing pose to current data security practices, requiring proactive measures to mitigate future vulnerabilities.",
+    "category_flow": [
+      "DCA",
+      "AAT"
+    ],
+    "llm_suggestion": [
+      "DCA"
+    ],
+    "note":"LLM dropped AAT, kept DCA: Treated it purely as a data compromise, less as a future/adaptive threat."
+  },
+  {
+    "article_title": "North Korean Government Hacker Charged for Involvement in ...",
+    "article_url": "https://www.justice.gov/archives/opa/pr/north-korean-government-hacker-charged-involvement-ransomware-attacks-targeting-us-hospitals",
+    "incident_summary": "In July 2024, the U.S. Department of Justice announced criminal charges against a North Korean operative for involvement in ransomware attacks. The attacks, which occurred approximately two years prior, utilized Maui ransomware to target U.S. hospitals and healthcare providers. These attacks held the organizations' data hostage, disrupting their operations. The Justice Department emphasized its commitment to pursuing malicious cyber actors targeting critical infrastructure, signaling ongoing efforts to protect against future attacks.",
+    "category_flow": [
+      "DCA",
+      "PSI",
+      "OIA"
+    ],
+    "llm_suggestion": [
+      "DCA",
+      "OIA",
+      "BPA"
+    ],
+    "note":"LLM dropped PSI, added BPA: Reframed hospital impact as health-focused, not political or national-level threat."
+  },
+  {
+    "article_title": "American Water Hit by Cyber-Attack, Billing Systems Disrupted",
+    "article_url": "https://www.infosecurity-magazine.com/news/american-water-cyberattack-billing/",
+    "incident_summary": "American Water experienced a cybersecurity incident, with initial access gained through compromised identities. As a precaution, the company disconnected certain systems and paused customer billing, assuring customers they wouldn't incur late fees. While water and wastewater facilities remain operational, the company is investigating the full scope of the breach and working with law enforcement. The incident highlights the critical need for organizations to prioritize protecting systems targeted by threat actors through robust identity management practices.",
+    "category_flow": [
+      "DCA",
+      "OIA",
+      "EFA"
+    ],
+    "llm_suggestion": [
+      "DCA",
+      "EFA"
+    ],
+    "note":"LLM dropped PSI/DCA: No confirmed cyber or physical attack — focused only on operational outcome."
+  },
+  {
+    "article_title": "Spain rules out cyber attack - but what could have caused power cut?",
+    "article_url": "https://www.bbc.com/news/articles/c209yrl3258o",
+    "incident_summary": "A large power outage affected Spain, Portugal, and parts of France on Monday. While initially suspected, a cyber attack has been ruled out as the cause, with no evidence of interference in control systems. The precise reason for the outage remains under investigation. Authorities are working to determine the cause and implement preventative measures to avoid future occurrences. The incident highlights the vulnerability of interconnected power grids and the need for robust safeguards.",
+    "category_flow": [
+      "DCA",
+      "OIA",
+      "PSI"
+    ],
+    "llm_suggestion": [
+      "OIA"
+    ],
+    "note":"LLM was only able to detect Operation problem in the article "
+  },
+  {
+    "article_title": "Colonial Pipeline ransomware attack - Wikipedia",
+    "article_url": "https://en.wikipedia.org/wiki/Colonial_Pipeline_ransomware_attack",
+    "incident_summary": "In May 2021, Colonial Pipeline, a major fuel pipeline system in the United States, was targeted in a ransomware cyberattack. The attack involved malicious software that compromised computerized equipment managing the pipeline's operations. As a result, Colonial Pipeline halted operations, leading to fuel supply disruptions in the Southeastern United States. The incident, attributed to the DarkSide hacking group, highlighted the vulnerability of critical infrastructure to cyberattacks and the potential for significant economic and logistical consequences.",
+    "category_flow": [
+      "DCA",
+      "OIA",
+      "EFA"
+    ],
+    "llm_suggestion": [
+      "DCA",
+      "OIA",
+      "EFA"
+    ],
+    "note":"No difference"
+  },
+  {
+    "article_title": "Here's how many ransomware attacks impacted ag in 2024 - AGDAILY",
+    "article_url": "https://www.agdaily.com/news/how-ransomware-attacks-impacted-ag-in-2024/",
+    "incident_summary": "In 2024, the food and agriculture industry experienced 212 ransomware attacks, a type of cyberattack where systems are held hostage until a ransom is paid. These attacks primarily targeted critical manufacturing and commercial facilities within the sector. While the overall volume of ransomware attacks saw a slight increase compared to the previous year, the food and agriculture incidents were part of a larger trend, representing a portion of nearly 3,500 attacks across 11 industries. The Food and Ag-ISAC is providing resources to help companies in this sector improve their cybersecurity posture and share information to mitigate future risks. This highlights the ongoing need for vigilance and improved security measures to protect critical infrastructure and supply chains from cyber threats.",
+    "category_flow": [
+      "DCA",
+      "BPA"
+    ],
+    "llm_suggestion": [
+      "DCA",
+      "EFA",
+      "OIA"
+    ],
+    "note":"LLM added OIA/EFA, not BPA: Emphasized economic and operational impacts over biological threat."
+
+  },
+  {
+    "article_title": "Maximizing Efficiency With CentralSquare Utility Billing",
+    "article_url": "https://www.centralsquare.com/resources/articles/maximizing-efficiency-with-centralsquare-utility-billing/",
+    "incident_summary": "This article describes a comprehensive utility billing system that integrates with GIS to provide businesses with detailed information about their utility services. The system offers features like data export to Excel, transaction processing, and customer history tracking. By streamlining the billing process and providing in-depth insights, the system aims to save organizations time and resources, allowing them to focus on core operations. The system's flexibility allows businesses to customize billing processes to meet their specific needs, ultimately promoting long-term efficiency.",
+    "category_flow": [
+      "DCA",
+      "EFA"
+    ],
+    "llm_suggestion": [
+      "DCA",
+      "EFA"
+    ],
+    "note":"No difference"
+  },
+  {
+    "article_title": "Misinformation is eroding the public's confidence in democracy",
+    "article_url": "https://www.brookings.edu/articles/misinformation-is-eroding-the-publics-confidence-in-democracy/",
+    "incident_summary": "Social unrest, exemplified by protest marches, was potentially exacerbated by the spread of misinformation. This misinformation, disseminated through social media platforms and online websites, targeted public perception and potentially fueled existing tensions. The consequence was likely an increase in societal division and distrust. This highlights the risk of online misinformation campaigns influencing real-world events and the importance of media literacy.",
+    "category_flow": [
+      "SPI"
+    ],
+    "llm_suggestion": [
+      "SPI"
+    ],
+    "note":"No difference"
+  },
+  {
+    "article_title": "False free chlorine readings - Hanna Instruments Africa",
+    "article_url": "https://blog.hannaservice.eu/false-free-chlorine-readings/",
+    "incident_summary": "This article lists countries where a specific website is accessible. It also mentions cookies related to GDPR compliance, used for storing user consent regarding necessary and performance cookies. There is no indication of any attack or security breach within the provided text. Therefore, a summary describing an attack, target, consequence, and broader impact is not applicable.",
+    "category_flow": [
+      "OIA",
+      "SPI"
+    ],
+    "llm_suggestion": [
+      "SPI"
+    ],
+    "note":"LLM suggested only BPA, likely misinterpreting the incident as a basic public alert rather than infrastructure or operational issues."
+  },
+  {
+    "article_title": "Pennsylvania Water Utility Hack (2023) | by Bridget - Medium",
+    "article_url": "https://medium.com/@bridget4/pennsylvaniawater-utility-hack-2023-eeec99d04a74",
+    "incident_summary": "On November 24, 2023, the CyberAv3ngers breached a remote water station by exploiting internet exposure and weak passwords on a Unitronics programmable logic controller. This allowed them to access and manipulate a pump controlling water pressure and display anti-Israel messages. The facility responded by switching to manual operations, disconnecting the compromised system, and replacing the affected device. The incident highlights the vulnerability of critical infrastructure to cyberattacks due to poor security practices, emphasizing the need for stronger cybersecurity measures in similar facilities.",
+    "category_flow": [
+      "DCA",
+      "EFA",
+      "OIA"
+    ],
+    "llm_suggestion": [
+      "DCA",
+      "OIA"
+    ],
+    "note":"LLM drops EFA since the focus was on digital access and control, not sustained asset exploitation."
+  },
+  {
+    "article_title": "Ajax shutoff valves",
+    "article_url": "https://ajax.systems/groups/electric-valves/",
+    "incident_summary": "This article describes smart water shut-off valves, which offer remote control of water flow via a smartphone app or automation system. These devices allow users to remotely manage their water supply, preventing leaks and enabling convenient control. In case of technical issues, a manual override option is often available. The article highlights Ajax WaterStop models as examples of remotely controlled water shutoff valves. While the article focuses on the benefits and features of these valves, it does not describe any attacks, targets, or consequences. Therefore, there is no information to include regarding method of attack, target, consequence, or broader impact.",
+    "category_flow": [
+      "AAT",
+      "DCA",
+      "OIA",
+      "PSI"
+    ],
+    "llm_suggestion": [
+      "AAT",
+      "DCA",
+      "OIA",
+      "PSI"
+    ],
+    "note":"No difference"
+  },
+  {
+    "article_title": "Cloud Misconfigurations - A Leading Cause of Data Breaches",
+    "article_url": "https://gbhackers.com/cloud-misconfigurations/",
+    "incident_summary": "A single error in system setup, such as a misconfiguration, can be exploited to launch an attack. This can affect organizations or individuals storing sensitive information. The consequence of such an attack is the potential exposure of large quantities of private data. This highlights the critical need for meticulous configuration management to prevent future data breaches and protect sensitive information.",
+    "category_flow": [
+      "DCA"
+    ],
+    "llm_suggestion": [
+      "DCA"
+    ],
+    "note":"No difference"
+  },
+  {
+    "article_title": "Understanding the Threat of Deepfakes in Healthcare - Pindrop",
+    "article_url": "https://www.pindrop.com/article/threat-deepfakes-in-healthcare/",
+    "incident_summary": "Cybercriminals are leveraging audio deepfakes to mimic the voices of trusted individuals like doctors or administrators. This impersonation allows them to fraudulently gain access to sensitive data repositories. The consequence of this attack is unauthorized access to confidential information. This highlights the growing risk of voice-based social engineering and the need for stronger authentication measures to protect against sophisticated audio manipulation.",
+    "category_flow": [
+      "DCA",
+      "SPI"
+    ],
+    "llm_suggestion": [
+      "DCA"
+    ],
+    "note":"LLM drops SPI, focusing on DCA due to unauthorized access via voice fraud."
+  },
+  {
+    "article_title": "Top 10 Security Threats for the Energy Sector - Kaseware",
+    "article_url": "https://www.kaseware.com/post/top-10-security-threats-for-the-energy-sector",
+    "incident_summary": "Software vulnerabilities, stemming from coding errors, outdated software, or misconfigurations, can be exploited through methods like malware, phishing, or direct hacking. These attacks often target SCADA systems, especially those that are outdated or lack robust security. Successful exploitation can result in unauthorized access, data breaches, and operational disruptions, potentially leading to significant financial losses. Protecting SCADA systems is crucial for maintaining the reliability and integrity of critical infrastructure like energy.",
+    "category_flow": [
+      "DCA",
+      "OIA"
+    ],
+    "llm_suggestion": [
+      "DCA",
+      "OIA"
+      
+    ],
+    "note":"No difference"
+  },
+  {
+    "article_title": "Cyberattack issues on smart metering infrastructure - ScienceDirect",
+    "article_url": "https://www.sciencedirect.com/science/article/abs/pii/B9780443153174000051",
+    "incident_summary": "Sophisticated cyberattacks present a serious danger to contemporary smart meter systems. These attacks, carried out through unspecified methods, target the smart meters themselves. A successful large-scale attack could disable many of these meters. This disruption could significantly impact urban areas. The vulnerability highlights the need for robust cybersecurity measures to protect critical infrastructure.",
+    "category_flow": [
+      "DCA",
+      "OIA",
+      "EFA"
+    ],
+    "llm_suggestion": [
+      "DCA",
+      "OIA",
+      "EFA"
+    ],
+    "note":"No difference"
+  },
+  {
+    "article_title": "Water and Sabotage in Paradise: Greece's Hidden Climate Conflict",
+    "article_url": "https://climateandsecurity.org/2022/08/water-and-sabotage-in-paradise-greeces-hidden-climate-conflict/",
+    "incident_summary": "On several Greek islands, water infrastructure like desalination plants have experienced frequent and unexplained malfunctions. While difficult to definitively prove, some suspect sabotage, including allegations of locals being paid to undermine confidence in desalinated water and obstruct new plant construction. This disruption has affected the water supply on islands reliant on these systems. The Greek state has since intervened by building more desalination plants and pipelines, diminishing the power of private water operators who previously controlled the water supply. This situation highlights how climate change-related water scarcity can fuel conflict, even in wealthier nations, and underscores the importance of secure and reliable water infrastructure.",
+    "category_flow": [
+      "OIA",
+      "PSI",
+      "SPI"
+    ],
+    "llm_suggestion": [
+      "OIA",
+      "EFA",
+      "SPI"
+    ],
+    "note":"LLM adds EFA, interpreting sabotage and disruption of water supply as having financial motives/impact."
+  },
+  {
+    "article_title": "5 Biggest VPN Security Risks - Check Point Software",
+    "article_url": "https://www.checkpoint.com/cyber-hub/network-security/what-is-vpn/5-biggest-vpn-security-risks/",
+    "incident_summary": "Malware infections on VPN servers and client devices can steal user credentials, enabling attackers to compromise VPN systems. This can lead to man-in-the-middle attacks, data leaks, and even remote code execution on user devices. Misconfigurations in VPN software, servers, or client settings also expose sensitive data. Organizations using VPNs should conduct risk assessments to identify and mitigate potential vulnerabilities. These vulnerabilities highlight the importance of secure configurations and robust malware protection for VPN infrastructure.",
+    "category_flow": [
+      "DCA"
+      
+    ],
+    "llm_suggestion": [
+      "DCA",
+      "OIA"
+    ],
+    "note":"LLM adds OIA due to potential operational fallout from VPN exploitation beyond just access."
+  },
+  {
+    "article_title": "Iberian Outage Hits Telcos: Traffic Falls by 90%",
+    "article_url": "https://datacentremagazine.com/news/telcos-disrupted-by-iberian-power-outage-a-warning",
+    "incident_summary": "Power grids face increasing threats from both cyberattacks, which disrupt digital systems, and physical sabotage. These attacks target the infrastructure of power grids, potentially leading to disruptions in electricity supply. This vulnerability highlights the need to strengthen security measures in both the digital and physical realms to protect critical infrastructure and prevent widespread power outages. The interconnected nature of these threats underscores the importance of a comprehensive security approach.",
+    "category_flow": [
+      "PSI",
+      "DCA"
+    ],
+    "llm_suggestion": [
+      "DCA",
+      "OIA"
+    ],
+    "note":"LLM swaps PSI with OIA—focus is on operational impact from grid failures, not just physical assets."
+  },
+  {
+    "article_title": "The Department of Homeland Security - Emergency Preparedness ...",
+    "article_url": "https://georgewbush-whitehouse.archives.gov/deptofhomeland/sect4.html",
+    "incident_summary": "A proposed Department would centralize federal emergency response to various threats, including biological and nuclear attacks, and natural disasters. This department would coordinate federal, state, and local agencies to manage incidents and streamline communication. A key goal is to improve interoperability between emergency responders, addressing current technological limitations. By consolidating emergency response plans and eliminating distinctions between crisis and consequence management, the department aims to create a more unified and effective national incident management system. This would improve the ability to respond to future large-scale emergencies.",
+    "category_flow": [
+      "DCA",
+      "OIA",
+      "PSI"
+    ],
+    "llm_suggestion": [
+      "BPA",
+      "NDA",
+      "SPI"
+    ],
+    "note":"LLM shifts to future-focused risks (biological, disaster, policy), seeing it as strategic planning, not infrastructure access."
+  },
+  {
+    "article_title": "OTORIO Found Critical Vulnerabilities in ICS Remote Access Software",
+    "article_url": "https://www.otorio.com/news/otorio-found-critical-vulnerabilities-in-ics-remote-access-software/",
+    "incident_summary": "This article excerpt identifies B&R's SiteManager and GateManager, along with mbConnect's remote access tools, as prevalent in industrial settings. The provided text doesn't describe a specific attack, target, or consequence. Therefore, it's impossible to create a summary addressing those points based solely on this excerpt. The text simply highlights the popularity of these remote access solutions within the industrial sector. Without further information, the broader impact remains unknown.",
+    "category_flow": [
+      "DCA",
+      "OIA"
+    ],
+    "llm_suggestion": [
+      "DCA",
+      "OIA"
+    ],
+    "note":"No difference"
+  },
+  {
+    "article_title": "Iranian Hackers Claim Cyber Attack on New York Dam - NBC News",
+    "article_url": "https://www.nbcnews.com/news/us-news/iranian-hackers-claim-cyber-attack-new-york-dam-n484611",
+    "incident_summary": "In 2013, an Iranian hacking group, SOBH Cyber Jihad, gained unauthorized access to the control system of the Bowman Avenue Dam in Rye Brook, New York. The method of attack is not explicitly stated, but it allowed the group to control the dam's operations. While the immediate consequences of the breach are not detailed, the group claims they remained silent for two years due to a \"state-level\" warning. The incident raises concerns about the vulnerability of critical infrastructure to cyberattacks and the potential for state-sponsored actors to target such systems, highlighting the need for improved cybersecurity measures.",
+    "category_flow": [
+      "PSI",
+      "DCA",
+      "OIA"
+    ],
+    "llm_suggestion": [
+      "DCA",
+      "OIA"
+    ],
+    "note":"LLM drops PSI—focuses on cyber and operational breach, not direct physical damage."
+  },
+  {
+    "article_title": "Xcel Energy's plan to fix leak at Monticello nuclear plant - FOX 9",
+    "article_url": "https://www.fox9.com/news/xcel-energys-plan-to-fix-the-leak-at-monticello-nuclear-plant",
+    "incident_summary": "Xcel Energy will shut down the Monticello Nuclear Generating Plant due to two tritium water leaks originating from a 50-year-old pipe. The plant will be powered down to allow for cooling before crews remove the damaged pipe for analysis. The goal is to determine the cause of the pipe failure and prevent future incidents. This shutdown impacts energy production and necessitates repairs to ensure the plant's continued safe operation.",
+    "category_flow": [
+      "OIA",
+      "PSI"
+    ],
+    "llm_suggestion": [
+      "OIA"
+    ],
+    "note":"LLM removes PSI—no malicious physical threat present, only internal operational failure."
+  },
+  {
+    "article_title": "False Billing - Tookitaki",
+    "article_url": "https://www.tookitaki.com/glossary/false-billing",
+    "incident_summary": "False billing is a fraudulent scheme where perpetrators issue deceptive invoices with fabricated or inflated charges, often exploiting weaknesses in internal controls or manipulating accounting records. Businesses are the primary target of this fraud. The consequence is significant financial losses and reputational damage. Understanding and preventing false billing is crucial for businesses to minimize risk and protect themselves from this type of fraudulent activity, requiring vigilance and strong internal controls.",
+    "category_flow": [
+      "OIA",
+      "EFA"
+    ],
+    "llm_suggestion": [
+      "EFA"
+    ],
+    "note":"LLM removes OIA—no infrastructure/operational threat, purely economic fraud."
+  },
+  {
+    "article_title": "What is a Software Supply Chain Attack? Complete Guide",
+    "article_url": "https://scribesecurity.com/software-supply-chain-security/supply-chain-attack/",
+    "incident_summary": "A supply chain attack occurs when cybercriminals infiltrate an organization's system by compromising a third-party vendor or supplier, often through vulnerabilities in their software. Attackers inject malware into the vendor's software, which then spreads to the vendor's clients via seemingly legitimate processes like software updates. This allows attackers to gain unauthorized access to the victim organization's systems. These attacks are difficult to detect and can have a massive scope due to the widespread distribution of compromised software, highlighting the need for stronger cybersecurity practices among software vendors.",
+    "category_flow": [
+      "DCA",
+      "OIA"
+    ],
+    "llm_suggestion": [
+      "DCA",
+      "OIA"
+    ],
+    "note":"No difference"
+  },
+  {
+    "article_title": "Cyberattacks Detection in IoT-Based Smart City Applications Using ...",
+    "article_url": "https://www.researchgate.net/publication/347635021_Cyberattacks_Detection_in_IoT-Based_Smart_City_Applications_Using_Machine_Learning_Techniques",
+    "incident_summary": "Smart city networks, relying on interconnected IoT devices and cloud servers, are vulnerable to malicious attacks. These attacks, carried out through the network connections, target the IoT devices and the data stored on cloud servers. The consequence of such attacks could be compromised device functionality and data breaches. This highlights the need for robust security measures to protect smart city infrastructure and prevent future disruptions and data loss.",
+    "category_flow": [
+      "DCA",
+      "OIA"
+    ],
+    "llm_suggestion": [
+      "DCA",
+      "OIA"
+    ],
+    "note":"No difference"
+  },
+  {
+    "article_title": "American power plant shut down by cyber attack - Yahoo News UK",
+    "article_url": "https://uk.news.yahoo.com/american-power-plant-shut-down-by-cyber-attack-104208349.html",
+    "incident_summary": "Two power plants in the United States were targeted in cyberattacks involving computer viruses. One plant was forced to shut down after being infected with malicious software that was introduced into its system. The attacks highlight the vulnerability of critical infrastructure to cyber threats. This incident raises concerns about the potential for future disruptions and the need for improved cybersecurity measures within the power sector.",
+    "category_flow": [
+      "DCA",
+      "OIA",
+      "PSI"
+    ],
+    "llm_suggestion": [
+      "DCA",
+      "OIA"
+    ],
+    "note":"LLM removes PSI—emphasizes digital and operational effects, not physical."
+  },
+  {
+    "article_title": "Drone strike disables Kursk NPP substation \u2014 Russian media - Reddit",
+    "article_url": "https://www.reddit.com/r/ukraine/comments/1eopw6l/drone_strike_disables_kursk_npp_substation/",
+    "incident_summary": "A power substation in Kursk Oblast, located near the Kursk Nuclear Power Plant, was struck by a UAV. This attack resulted in electricity outages affecting several settlements in the region. The incident highlights the vulnerability of critical infrastructure to drone attacks. This event may raise concerns about the security of energy infrastructure in the area.",
+    "category_flow": [
+      "AAT",
+      "PSI"
+    ],
+    "llm_suggestion": [
+      "OIA"
+    ],
+    "note":"LLM condenses to OIA—focus on immediate operational impact, not tech novelty or asset value."
+  },
+  {
+    "article_title": "[PDF] IOT-BASED REAL-TIME GAS LEAK DETECTION ... - IRJMETS",
+    "article_url": "https://www.irjmets.com/uploadedfiles/paper//issue_3_march_2025/71137/final/fin_irjmets1745413355.pdf",
+    "incident_summary": "This project addresses the risk of gas leaks in residential areas by developing a smart detection and prevention system. The system uses sensors to monitor gas concentration and triggers alerts via multiple channels, including mobile notifications, when a leak is detected. It also automatically shuts off the gas supply to prevent further leakage and potential explosions or poisoning. Remote monitoring via a smartphone app provides users with real-time data and control. Future enhancements could include predictive analysis and voice assistant integration to further improve safety and responsiveness.",
+    "category_flow": [
+      "DCA",
+      "OIA",
+      "PSI"
+    ],
+    "llm_suggestion": [
+      "BPA",
+      "NDA"
+    ],
+    "note":"LLM reframes as public safety (health/disaster), not access/infrastructure."
+  },
+  {
+    "article_title": "The Hand-in-Hand Spread of Mistrust and Misinformation in Flint",
+    "article_url": "https://www.americanscientist.org/article/the-hand-in-hand-spread-of-mistrust-and-misinformation-in-flint",
+    "incident_summary": "In a 2016 report, the NRDC raised concerns about potential water contamination affecting a large segment of the U.S. population. The report suggested that many Americans might unknowingly be consuming unsafe water. The consequence of this contamination could be adverse health effects for those affected. This situation highlights the potential for widespread public health risks due to inadequate water quality monitoring and awareness. The report aligns with similar concerns expressed in 2015, suggesting a persistent and ongoing issue.",
+    "category_flow": [
+      "SPI"
+    ],
+    "llm_suggestion": [
+      "BPA",
+      "SPI"
+    ],
+    "note":"LLM adds BPA due to health consequences of water misinformation."
+  },
+  {
+    "article_title": "Ransomware Groups Hit Three Wastewater Facilities This Year",
+    "article_url": "https://duo.com/decipher/ransomware-groups-hit-three-wastewater-facilities-this-year",
+    "incident_summary": "Over the past seven months, wastewater treatment facilities (WWS) in the United States have been targeted by ransomware attacks. In these incidents, attackers gained unauthorized remote access to the facilities' networks and deployed ransomware, such as ZuCalNo and Ghost variants. This compromised the SCADA systems that control operations, forcing manual operation and disrupting services. These attacks highlight the vulnerability of critical infrastructure to cyber threats and the potential for disruptions to essential services like clean water and wastewater management.",
+    "category_flow": [
+      "DCA",
+      "OIA",
+      "BPA"
+    ],
+    "llm_suggestion": [
+      "DCA",
+      "OIA"
+    ],
+    "note":"LLM removes BPA—focuses on IT/OT breach, not direct bio-physical outcomes."
+  },
+  {
+    "article_title": "2024 Baltic Sea submarine cable disruptions - Wikipedia",
+    "article_url": "https://en.wikipedia.org/wiki/2024_Baltic_Sea_submarine_cable_disruptions",
+    "incident_summary": "In November 2024, two submarine telecommunication cables in the Baltic Sea, the BCS East-West Interlink and C-Lion1, experienced disruptions. The near-simultaneous damage to both fibre-optic cables, occurring in close proximity, led to suspicions of sabotage or hybrid warfare tactics. Then in February 2025, another data cable between Germany and Finland was damaged, with sabotage suspected. These incidents targeting critical undersea infrastructure raised concerns among European governments and NATO members, highlighting the vulnerability of these vital communication links and the potential for future disruptions.",
+    "category_flow": [
+      "OIA",
+      "PSI"
+    ],
+    "llm_suggestion": [
+      "OIA",
+      "PSI"
+    ],
+    "note":"No difference"
+  },
+  {
+    "article_title": "SCADA Security Essentials: Your Need-to-Know Guide",
+    "article_url": "https://www.ssh.com/academy/operational-technology/scada-security-essentials-need-to-know-guide",
+    "incident_summary": "SCADA systems face security risks from both internal and external sources. Attacks can occur through malicious insiders, human error, or by exploiting vulnerabilities in interconnected IT networks. These attacks target the SCADA systems themselves, potentially leading to disruption of operations or physical damage. The interconnectedness of IT and SCADA systems means weaknesses in one area can compromise the other, highlighting the need for comprehensive security across both infrastructures to prevent future breaches and broader threats like ransomware.",
+    "category_flow": [
+      "DCA",
+      "OIA"  
+    ],
+    "llm_suggestion": [
+      "DCA",
+      "OIA"
+    ],
+    "note":"No difference"
+  },
+  {
+    "article_title": "[PDF] the impact of bad sensors on the water industry and possible ...",
+    "article_url": "https://www.itcon.org/papers/2008_12.content.03682.pdf",
+    "incident_summary": "This study investigated the use of sensors at water treatment works (WTW) drawing from river and groundwater sources. The method of \"attack\" was the deployment of sensors for water quality monitoring. The target was the water treatment process and the operators responsible for managing it. The consequence was that the sensors, due to false alarms and a lack of operator trust and understanding, became a burden and were ultimately switched off. This highlights the potential benefits of improved sensor implementation and data analysis for enhanced water treatment control, while also exposing the risks of inconsistent sensor usage and inadequate data archiving.",
+    "category_flow": [
+      "PSI",
+      "OIA"
+      
+    ],
+    "llm_suggestion": [
+      "OIA"
+    ],
+    "note":"LLM removed PSI, for LLM  incident concerns operational inefficiencies and human factors, not public security."
+  },
+  {
+    "article_title": "10 Types of Social Engineering Attacks | CrowdStrike",
+    "article_url": "https://www.crowdstrike.com/en-us/cybersecurity-101/social-engineering/types-of-social-engineering-attacks/",
+    "incident_summary": "Social engineering attacks manipulate individuals psychologically to compromise digital security. These attacks, often carried out through methods like phishing, target users by exploiting emotions to obtain sensitive data, credentials, or access to devices. The consequence can range from personal data breaches to compromised devices, which can then be used as entry points for larger-scale attacks on corporate networks, highlighting the vulnerability of human error in cybersecurity. This emphasizes the need for increased awareness and training to mitigate these risks.",
+    "category_flow": [
+      "DCA"
+    ],
+    "llm_suggestion": [
+      "DCA"
+    ],
+    "note":"No difference"
+  },
+  {
+    "article_title": "Dragos Reports OT/ICS Cyber Threats Escalate Amid Geopolitical ...",
+    "article_url": "https://www.dragos.com/resources/press-release/dragos-reports-ot-ics-cyber-threats-escalate-amid-geopolitical-conflicts-and-increasing-ransomware-attacks/",
+    "incident_summary": "In 2024, malware attacks on industrial control systems (ICS) increased, posing significant risks. FrostyGoop, a malware targeting Modbus TCP/502 communications, manipulates industrial process commands to cause physical damage, demonstrated by an attack on Ukraine's district heating system that left hundreds of buildings without heat. Another malware, Fuxnet, targeted Moscow's sensor network, disabling sensors and destroying gateway devices, disrupting the city's utility monitoring. Research indicates a high percentage of ICS vulnerabilities are deep within the network and can lead to loss of control, highlighting the growing need for robust security measures to protect critical infrastructure from such attacks.",
+    "category_flow": [
+      "DCA",
+      "OIA"
+      
+    ],
+    "llm_suggestion": [
+      "DCA",
+      "OIA",
+      "BPA"
+    ],
+    "note":"BPA added due to LLM giving more priority to demonstrated physical disruption of heating and sensor systems."
+  },
+  {
+    "article_title": "Healthcare Data Breaches: Insights and Implications - PMC",
+    "article_url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC7349636/",
+    "incident_summary": "From 2015 to 2019, a significant number of data breach incidents occurred, resulting in the exposure of 145.75 million records through hacking. This represents a substantial increase compared to the previous five-year periods (2005-2009 and 2010-2014). The data suggests a growing risk of data exposure through hacking, highlighting the need for enhanced cybersecurity measures to protect sensitive information. The table provided in the article details the number of breach incidents from 2015-2019, but the article also mentions data from 2010-2014 and 2005-2009.",
+    "category_flow": [
+      "DCA",
+      "EFA",
+      "SPI"
+    ],
+    "llm_suggestion": [
+      "DCA"
+    ],
+    "note":"LLM simplified to DCA, as for LLM the core issue is data security and exposure here, unable to detect more."
+  },
+  {
+    "article_title": "Social Engineering Scam Targeting Healthcare Billing - Telehealth.org",
+    "article_url": "https://telehealth.org/social-engineering-scam-targeting-healthcare-billing/",
+    "incident_summary": "Cybercriminals are using phishing attacks, which involve deceptive emails or messages, to obtain employee login credentials. These attacks specifically target healthcare organizations. Successful phishing attempts can lead to unauthorized access to sensitive data and systems. This type of attack highlights the ongoing need for robust cybersecurity training and awareness programs within the healthcare sector to mitigate the risk of future credential theft and data breaches.",
+    "category_flow": [
+      "DCA",
+      "EFA"
+    ],
+    "llm_suggestion": [
+      "DCA",
+      "BPA"
+    ],
+    "note":"BPA added —probabily for LLM compromise of credentials can lead to broader system access and harm."
+  },
+  {
+    "article_title": "Hackers force water utilities to sink or swim - E&E News by POLITICO",
+    "article_url": "https://www.eenews.net/articles/hackers-force-water-utilities-to-sink-or-swim/",
+    "incident_summary": "Cybersecurity experts are concerned about potential hacks into operational networks of water and wastewater utilities. Attackers could gain control of critical processes like chlorination or digesters. This could lead to contaminated water supplies, potentially causing widespread disease outbreaks downstream. The increasing number of identified vulnerabilities in water sector equipment suggests that such attacks are becoming more likely, particularly impacting smaller, resource-constrained utilities. This highlights the urgent need for improved cybersecurity measures to protect vital water infrastructure.",
+    "category_flow": [
+      "DCA",
+      "OIA",
+      "BPA",
+      "PSI"
+    ],
+    "llm_suggestion": [
+      "DCA",
+      "OIA",
+      "BPA"
+    ],
+    "note":"PSI retained by LLM — considering public health impact (e.g., contaminated water) is a potential consequence."
+  },
+  {
+    "article_title": "[PDF] Remote Control lets you take-over Windows and Mac OS devices to ...",
+    "article_url": "https://wiki.itarian.com/frontend/web/topic/download-pdf/how-to-configure-access-control-for-remote-desktop-activities",
+    "incident_summary": "Security configurations often allow for granular control over remote access features. This means that certain functionalities, such as the ability to remotely control a device (device takeover) and the ability to send or receive files (file transfers), can be managed independently. A vulnerability could arise if one access method is disabled while another remains active, potentially allowing unauthorized access to the target device or network through the enabled channel. This selective configuration highlights the importance of carefully assessing the security implications of each enabled feature to prevent unintended access and potential data breaches.",
+    "category_flow": [
+      "DCA",
+      "OIA",
+      "PSI"
+    ],
+    "llm_suggestion": [
+      "DCA"
+    ],
+    "note":"OIA and PSI removed — for LLM issue is limited to misconfiguration allowing digital access."
+  },
+  {
+    "article_title": "Blackout or breach? Spain and Portugal's grid collapse fuels ...",
+    "article_url": "https://www.securityinfowatch.com/critical-infrastructure/article/55286751/blackout-or-breach-spain-and-portugals-grid-collapse-fuels-cyberattack-fears",
+    "incident_summary": "A recent blackout in Spain and Portugal sparked concerns about a potential cyberattack targeting their power grids. While the likely cause was a technical malfunction due to a rare atmospheric phenomenon, the possibility of a cyber intrusion, potentially exploiting weak passwords to access IT and operational technology systems, has not been ruled out. The incident, whether a natural event or a cyberattack, highlighted the vulnerability of critical infrastructure to digital threats. This event serves as a reminder of the need for constant vigilance and robust cybersecurity measures to protect against future attacks on essential services.",
+    "category_flow": [
+      "OIA",
+      "NDA",
+      "PSI"
+    ],
+    "llm_suggestion": [
+      "DCA",
+      "OIA",
+      "NDA"
+    ],
+    "note":"DCA added —for LLM incident explores digital vulnerabilities as potential breach vector."
+  },
+  {
+    "article_title": "Blue Ridge Rural Water Company Data Breach Investigation",
+    "article_url": "https://straussborrelli.com/2024/08/12/blue-ridge-rural-water-company-data-breach-investigation/",
+    "incident_summary": "Blue Ridge Rural Water Company experienced a data breach after detecting suspicious activity within its corporate network in July 2024. The incident involved unauthorized access and potential acquisition of sensitive personal information stored in their systems. As a consequence, an undetermined number of individuals' data may have been compromised. Law firm Strauss Borrelli PLLC is investigating the breach and offering legal consultation to affected individuals. This incident highlights the ongoing risk of cyberattacks targeting organizations holding sensitive personal data.",
+    "category_flow": [
+      "DCA",
+      "OIA"
+    ],
+    "llm_suggestion": [
+      "DCA"
+    ],
+    "note":"LLM removed OIA—considering incident concerns data privacy breach, not infrastructure operations."
+  },
+  {
+    "article_title": "False alerts can undermine trust and provoke anxiety | PreventionWeb",
+    "article_url": "https://www.preventionweb.net/news/false-alerts-one-sent-during-greater-los-angeles-wildfires-can-undermine-trust-and-provoke",
+    "incident_summary": "Emergency alert systems in Los Angeles and Toronto experienced failures, leading to the dissemination of false or ambiguous alerts to millions of residents via cell phones. In Los Angeles, a false evacuation alert during active wildfires caused confusion and potentially hampered real evacuation efforts. In Toronto, an ambiguous alert regarding an incident at a nuclear plant created unnecessary alarm. Repeated false alerts in Los Angeles further compounded the initial error. These incidents highlight the risk of technical glitches and the potential for widespread panic or distrust in emergency alert systems, emphasizing the need for system improvements and clear communication protocols.",
+    "category_flow": [
+      "OIA",
+      "SPI"
+    ],
+    "llm_suggestion": [
+      "DCA",
+      "SPI"
+    ],
+    "note":"DCA added by LLM —LLM is considering misconfigured or malfunctioning alert systems are digital in nature."
+  },
+  {
+    "article_title": "Technology in Disaster Management and Recovery: Types and Impact",
+    "article_url": "https://publichealth.tulane.edu/blog/technology-disaster-management/",
+    "incident_summary": "This article describes Disaster Database Management Systems, which are specialized computer systems designed to manage data related to disasters. These systems store, process, and retrieve disaster-related information. The intended use is to support disaster response professionals, including FEMA, in tasks such as issuing warnings to at-risk areas and determining appropriate relief funding. By providing organized disaster data, these systems aim to improve the efficiency and effectiveness of disaster response efforts.",
+    "category_flow": [
+      "NDA",
+      "BPA",
+      "EFA"
+    ],
+    "llm_suggestion": [
+      "NDA",
+      "BPA",
+      "EFA"
+    ],
+    "note":"No difference"
+  }
+]

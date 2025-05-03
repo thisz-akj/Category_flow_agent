@@ -1,0 +1,74 @@
+
+from tools_new import search_tool_func  
+import json
+import time
+
+incident_queries = [
+"Cyberattack on water plant",
+"Ransomware attack on utility systems",
+"SCADA system breach in power grid",
+"Chemical leak due to cyber attack",
+"Data breach in a water treatment facility",
+"AI-driven drone disrupts infrastructure",
+"Bioterrorism attack on food supply",
+"Quantum computer breach on encrypted data",
+"Hacking group targets hospital infrastructure",
+"Phishing campaign disrupts billing systems",
+"Power outage caused by cyber attack",
+"Confirmed malware on oil pipeline sensors",
+"Attack on agricultural database",
+"Manipulation of utility billing system",
+"Fake news causing public unrest",
+"False chlorine dosing alert in city",
+"Banking system hacked through water utility entry",
+"AI system overrides water valves remotely",
+"Cloud misconfiguration leads to data exposure",
+"Deepfake used to gain admin access",
+"SCADA zero-day exploited in energy sector",
+"Confirmed cyberattack on smart meters",
+"Industrial sabotage in desalination plant",
+"VPN misconfigured in municipal system",
+"Mobile network outage due to physical sabotage",
+"Attack on disaster response system",
+"Remote access tool used in ICS breach",
+"Security breach at dam control center",
+"Leak of nuclear plant operation plans",
+"False billing by manipulated sensors",
+"Supply chain attack through vendor software",
+"IoT-based attack on city sensors",
+"Malicious firmware update shuts down plant",
+"Drone disables power substation",
+"Gas leak triggered by remote access",
+"Disinformation about contaminated water",
+"Ransomware hits waste processing facility",
+"Underwater cables sabotaged",
+"Insider threat compromises SCADA system",
+"Fake sensor data affects water treatment",
+"Social engineering attack on operator",
+"ICS malware causes equipment failure",
+"Leakage of healthcare data from water billing system",
+"Billing system targeted via phishing emails",
+"Hackers disrupt chlorination process",
+"Remote takeover of control panel",
+"Infrastructure collapse blamed on cyber attack",
+"Confirmed breach of rural water board",
+"False evacuation alert sent via compromised system",
+"Manipulation of disaster preparedness data",
+    
+]
+
+results = []
+for i, query in enumerate(incident_queries):
+    try:
+        print(f"Processing {i+1}/50: {query}")
+        result = search_tool_func(query)
+        results.append(result)
+        time.sleep(5)  # Be polite to APIs, avoid rate limits
+    except Exception as e:
+        print(f"Failed on query: {query} — Error: {e}")
+        continue
+
+with open("labeled_dataset2.0.json", "w") as f:
+    json.dump(results, f, indent=2)
+
+print("Completed creating dataset")
