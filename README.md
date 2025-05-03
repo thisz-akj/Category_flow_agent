@@ -55,6 +55,8 @@ Build a high-quality labeled dataset of real-world cyber-physical incidents usin
 
 Use: python task1.py
 
+**note**: For all tasks requirements1.txt will be sufficient. Install all dependencies before running any task. 
+
 
 #### Final Output Format
 ```json
