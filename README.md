@@ -72,7 +72,8 @@ Use: python task1.py
 
 Task 2 involved building a Python-based AI agent that classifies incident descriptions into predefined attack categories. The agent utilizes Google’s Gemini models (version 1.5 and 2.0) for inference and includes a robust evaluation framework comparing model outputs against manually labeled ground truth using selected metrics.
 
-**Functionality**
+### Functionality
+
 •	Input: A textual incident description.
 
 •	Prompt: Contains formal definitions of “Attack” and all 8 category codes
@@ -95,7 +96,7 @@ b. Jaccard Similarity Score (Micro & Macro)
 
 
 
-**Folder Structure:** 
+### Folder Structure:
 
  |---task2.py               # Main script
  
@@ -111,25 +112,24 @@ b. Jaccard Similarity Score (Micro & Macro)
 
 Use: python task2.py
 
-## Bonus Task:
-**Streamlit App:**
+## Bonus Task: Streamlit App
 
-Design & Structure Rationale 
+###Design & Structure Rationale 
 
-1.	Modular Page Design (Sidebar Navigation):
+**1.	Modular Page Design (Sidebar Navigation):**
 Cleanly separates core functionalities—classification, evaluation, exploration, and annotation—into independent modules for focused workflows and easier debugging.
-2.	Efficient Data Handling:
+**2.	Efficient Data Handling:**
 Uses @st.cache_data to efficiently load and preprocess CSV data once, while early binarization of multi-label categories enables fast metric computation and evaluation.
-3.	LLM Integration (Classify Incident):
+**3.	LLM Integration (Classify Incident):**
 Provides structured prompts with strict response formats and fallback parsing to ensure consistent and reliable outputs from Gemini LLMs across versions.
-4.	Visual & Metric-Driven Evaluation (Model Evaluation, LLM Comparison):
+**4.	Visual & Metric-Driven Evaluation (Model Evaluation, LLM Comparison):**
 Leverages micro/macro F1, Jaccard index, and classification reports alongside Altair/Seaborn visualizations to offer both granular and aggregated performance insights.
-5.	Exploratory Features (Data Explorer, Annotation Tool):
+**5.	Exploratory Features (Data Explorer, Annotation Tool):**
 Enables intuitive filtering, mismatch analysis, and human-in-the-loop annotation for continuous dataset refinement and transparent model inspection.
-6.	Error Analysis:
+**6.	Error Analysis:**
 Delivers per-label error breakdowns and surfacing of misclassified samples via graphs and tables to identify and address model weaknesses or data issues.
 
-**Folder Strucuture**:
+### Folder Strucuture:
 
   ├--bonus_task.py                          #streamlit file
 
@@ -141,7 +141,7 @@ Delivers per-label error breakdowns and surfacing of misclassified samples via g
 
 Use: streamlit run bonus_task.py
 
-##Output:
+### Output:
 
 Page1:
 
