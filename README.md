@@ -68,6 +68,7 @@ Use: python task1.py
 }
 ```
 
+
 ## Task 2: Category Flow Mapping Agent Using Gemini API
 
 Task 2 involved building a Python-based AI agent that classifies incident descriptions into predefined attack categories. The agent utilizes Google’s Gemini models (version 1.5 and 2.0) for inference and includes a robust evaluation framework comparing model outputs against manually labeled ground truth using selected metrics.
@@ -112,9 +113,10 @@ b. Jaccard Similarity Score (Micro & Macro)
 
 Use: python task2.py
 
+
 ## Bonus Task: Streamlit App
 
-###Design & Structure Rationale 
+### Design & Structure Rationale 
 
 **1.	Modular Page Design (Sidebar Navigation):**
 Cleanly separates core functionalities—classification, evaluation, exploration, and annotation—into independent modules for focused workflows and easier debugging.
