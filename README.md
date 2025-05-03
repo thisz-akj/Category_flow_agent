@@ -45,13 +45,20 @@ Build a high-quality labeled dataset of real-world cyber-physical incidents usin
 | AAT  | Advanced & Emerging Technology Attack |
 
 **Folder Structure**
-├ task1.py                      # Main script to generate the labeled dataset
-├ tools_new.py                 # Contains search and LLM summarization logic
-├ llm.py                       # LLM initialization using Google Gemini
-├ requirements.txt             # List of all required Python packages
-├.env                         # API keys (GOOGLE_API_KEY, TAVILY_API_KEY)
-├ labeled_dataset2.0.json      # Output JSON file with summaries and categories
-├ labeled_dataset1.5.json      # Output JSON file with summaries and categories
+
+├ task1.py                        # Main script to generate the labeled dataset
+
+├ tools_new.py                   # Contains search and LLM summarization logic
+
+├ llm.py                         # LLM initialization using Google Gemini
+
+├ requirements.txt               # List of all required Python packages
+
+├.env                           # API keys (GOOGLE_API_KEY, TAVILY_API_KEY)
+
+├ labeled_dataset2.0.json        # Output JSON file with summaries and categories
+
+├ labeled_dataset1.5.json        # Output JSON file with summaries and categories
 
 Use: python task1.py
 
@@ -101,17 +108,17 @@ b. Jaccard Similarity Score (Micro & Macro)
 
 ### Folder Structure:
 
- |---task2.py               # Main script
+ |---task2.py                           # Main script
+   
+ |---.env                               # Contains API key
  
- |---.env                   # Contains API key
+ |---Model_evaluation.ipynb             #do model analysis
  
- |---Model_evaluation.ipynb  #do model analysis
+ |--- final_dataset_g2.0.json           #the self validated final dataset of dataset created in task1 of 2.0 output
  
- |--- final_dataset_g2.0.json #the self validated final dataset of dataset created in task1 of 2.0 output
+ |--- final_dataset_g1.5.json           #the self validated final dataset of dataset created in task1 of 1.5 output
  
- |--- final_dataset_g1.5.json #the self validated final dataset of dataset created in task1 of 1.5 output
- 
- |---attack_incident_updated.csv   # created during model evaluation
+ |---attack_incident_updated.csv        # created during model evaluation
 
 Use: python task2.py
 
