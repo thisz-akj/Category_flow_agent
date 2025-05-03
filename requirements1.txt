@@ -1,5 +1,17 @@
 langchain
 langchain-google-genai
 langchain-community
+google-generativeai
+langchain-core
 python-dotenv
 tavily-python
+pandas
+numpy
+scikit-learn
+matplotlib
+seaborn
+altair
+streamlit
+regex
+scikit-learn
+ipython
