@@ -1,4 +1,4 @@
-
+**You can directly clone the repo and run the files after installing all the dependencies. Recommend first go through the "(Readme) Project workflow structure and predcedure.pdf" before running the tasks.**
 ## Task 1: LLM-Assisted Dataset Creation
 
 ### Objective
